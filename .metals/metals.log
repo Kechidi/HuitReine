@@ -1,0 +1,598 @@
+2023.02.08 08:31:19 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/kechidi/M1IWOCS22_23/HuitReine/.metals/lsp.trace.json or /home/kechidi/.cache/metals/lsp.trace.json
+2023.02.08 08:31:23 INFO  logging to file /home/kechidi/M1IWOCS22_23/HuitReine/.metals/metals.log
+2023.02.08 08:31:23 INFO  Started: Metals version 0.11.10 in workspace '/home/kechidi/M1IWOCS22_23/HuitReine' for client Visual Studio Code 1.75.0.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/kechidi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.08 08:31:30 INFO  time: initialize in 7.05s
+2023.02.08 08:31:37 WARN  Build server is not auto-connectable.
+2023.02.08 08:31:37 WARN  no build tool detected in workspace '/home/kechidi/M1IWOCS22_23/HuitReine'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+févr. 08, 2023 8:31:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 5
+2023.02.08 08:31:37 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 08:31:42 INFO  time: code lens generation in 5.5s
+2023.02.08 08:31:53 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+févr. 08, 2023 8:32:02 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+2023.02.08 08:32:09 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 08:32:25 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 08:33:43 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 08:34:08 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+févr. 08, 2023 8:39:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 86
+2023.02.08 08:39:07 WARN  Cannot tokenize Java file file:///home/kechidi/M1IWOCS22_23/HuitReine/src/echec.javaorg.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1564)
+	at scala.meta.internal.parsing.JavaTokens$.loop$1(JavaTokens.scala:71)
+	at scala.meta.internal.parsing.JavaTokens$.$anonfun$tokenize$1(JavaTokens.scala:75)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.parsing.JavaTokens$.tokenize(JavaTokens.scala:35)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:370)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:226)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:188)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:136)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:1275)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.02.08 08:39:07 WARN  Cannot tokenize Java file file:///home/kechidi/M1IWOCS22_23/HuitReine/src/echec.javaorg.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1564)
+	at scala.meta.internal.parsing.JavaTokens$.loop$1(JavaTokens.scala:71)
+	at scala.meta.internal.parsing.JavaTokens$.$anonfun$tokenize$1(JavaTokens.scala:75)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.parsing.JavaTokens$.tokenize(JavaTokens.scala:35)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:370)
+	at scala.meta.internal.metals.Buffers.tokenEditDistance(Buffers.scala:30)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.codeLenses(RunTestCodeLens.scala:60)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$3(CodeLensProvider.scala:26)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$2(CodeLensProvider.scala:26)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:24)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1793)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1791)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.02.08 08:39:07 WARN  Cannot tokenize Java file file:///home/kechidi/M1IWOCS22_23/HuitReine/src/echec.javaorg.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1564)
+	at scala.meta.internal.parsing.JavaTokens$.loop$1(JavaTokens.scala:71)
+	at scala.meta.internal.parsing.JavaTokens$.$anonfun$tokenize$1(JavaTokens.scala:75)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.parsing.JavaTokens$.tokenize(JavaTokens.scala:35)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:370)
+	at scala.meta.internal.metals.Buffers.tokenEditDistance(Buffers.scala:30)
+	at scala.meta.internal.metals.codelenses.SuperMethodCodeLens.codeLenses(SuperMethodCodeLens.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$3(CodeLensProvider.scala:26)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$2(CodeLensProvider.scala:26)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:24)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1793)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1791)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+févr. 08, 2023 8:39:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+java.util.concurrent.CompletionException: org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1564)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.next$1(JavaFoldingRangeExtractor.scala:100)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:145)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1809)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2023.02.08 08:39:13 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 08:39:20 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 08:39:26 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 08:39:29 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 08:42:19 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 08:51:25 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/main.java
+2023.02.08 08:51:27 INFO  time: code lens generation in 1.19s
+2023.02.08 08:51:39 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/Main.java
+févr. 08, 2023 8:51:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 399
+2023.02.08 08:51:41 INFO  time: code lens generation in 1.36s
+2023.02.08 08:51:41 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/Main.java
+2023.02.08 08:53:04 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/Main.java
+2023.02.08 08:54:46 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/Main.java
+2023.02.08 08:56:02 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/Main.java
+2023.02.08 08:56:20 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/Main.java
+2023.02.08 08:57:09 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/Main.java
+2023.02.08 08:58:20 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 08:58:22 WARN  Running javac-semanticdb failed for file:///home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java. Output:
+/home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java:35: error: illegal character: '\ufeff'
+﻿
+^
+/home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java:35: error: reached end of file while parsing
+﻿
+ ^
+2 errors
+2023.02.08 08:58:29 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 08:58:30 WARN  Running javac-semanticdb failed for file:///home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java. Output:
+/home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java:35: error: illegal character: '\ufeff'
+﻿
+^
+/home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java:35: error: reached end of file while parsing
+﻿
+ ^
+2 errors
+2023.02.08 08:58:34 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 09:00:33 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/main.java
+2023.02.08 09:00:46 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/main.java
+2023.02.08 09:01:02 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/main.java
+2023.02.08 09:01:03 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/ain.java
+2023.02.08 09:01:04 WARN  Running javac-semanticdb failed for file:///home/kechidi/M1IWOCS22_23/HuitReine/src/main.java. Output:
+/home/kechidi/M1IWOCS22_23/HuitReine/src/main.java:3: error: class ain is public, should be declared in a file named ain.java
+public class ain {
+       ^
+com.sourcegraph.semanticdb_javac.CompilationUnitException: file:///home/kechidi/M1IWOCS22_23/HuitReine/src/main.java
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 0
+	at java.base/java.lang.StringLatin1.charAt(StringLatin1.java:47)
+	at java.base/java.lang.String.charAt(String.java:693)
+	at com.sourcegraph.semanticdb_javac.SemanticdbVisitor.correctForTabs(SemanticdbVisitor.java:323)
+	at com.sourcegraph.semanticdb_javac.SemanticdbVisitor.semanticdbRange(SemanticdbVisitor.java:307)
+	at com.sourcegraph.semanticdb_javac.SemanticdbVisitor.semanticdbOccurrence(SemanticdbVisitor.java:339)
+	at com.sourcegraph.semanticdb_javac.SemanticdbVisitor.emitSymbolOccurrence(SemanticdbVisitor.java:84)
+	at com.sourcegraph.semanticdb_javac.SemanticdbVisitor.visitMemberSelect(SemanticdbVisitor.java:235)
+	at com.sourcegraph.semanticdb_javac.SemanticdbVisitor.visitMemberSelect(SemanticdbVisitor.java:30)
+	at jdk.compiler/com.sun.tools.javac.tree.JCTree$JCFieldAccess.accept(JCTree.java:2138)
+	at jdk.compiler/com.sun.source.util.TreePathScanner.scan(TreePathScanner.java:82)
+	at jdk.compiler/com.sun.source.util.TreeScanner.visitImport(TreeScanner.java:171)
+	at jdk.compiler/com.sun.tools.javac.tree.JCTree$JCImport.accept(JCTree.java:660)
+	at jdk.compiler/com.sun.source.util.TreePathScanner.scan(TreePathScanner.java:82)
+	at jdk.compiler/com.sun.source.util.TreeScanner.scan(TreeScanner.java:105)
+	at jdk.compiler/com.sun.source.util.TreeScanner.scanAndReduce(TreeScanner.java:113)
+	at jdk.compiler/com.sun.source.util.TreeScanner.visitCompilationUnit(TreeScanner.java:143)
+	at jdk.compiler/com.sun.tools.javac.tree.JCTree$JCCompilationUnit.accept(JCTree.java:591)
+	at jdk.compiler/com.sun.source.util.TreePathScanner.scan(TreePathScanner.java:82)
+	at com.sourcegraph.semanticdb_javac.SemanticdbVisitor.buildTextDocument(SemanticdbVisitor.java:68)
+	at com.sourcegraph.semanticdb_javac.SemanticdbTaskListener.onFinishedAnalyze(SemanticdbTaskListener.java:66)
+	at com.sourcegraph.semanticdb_javac.SemanticdbTaskListener.finished(SemanticdbTaskListener.java:46)
+	at jdk.compiler/com.sun.tools.javac.api.ClientCodeWrapper$WrappedTaskListener.finished(ClientCodeWrapper.java:828)
+	at jdk.compiler/com.sun.tools.javac.api.MultiTaskListener.finished(MultiTaskListener.java:132)
+	at jdk.compiler/com.sun.tools.javac.main.JavaCompiler.flow(JavaCompiler.java:1414)
+	at jdk.compiler/com.sun.tools.javac.main.JavaCompiler.flow(JavaCompiler.java:1371)
+	at jdk.compiler/com.sun.tools.javac.main.JavaCompiler.compile(JavaCompiler.java:973)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:311)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:170)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:57)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:43)
+Please report a bug to https://github.com/sourcegraph/semanticdb-java with the stack trace above.
+1 error
+2023.02.08 09:01:07 INFO  time: code lens generation in 3.1s
+2023.02.08 09:01:07 ERROR text document: file:///home/kechidi/M1IWOCS22_23/HuitReine/src/main.javajava.nio.file.NoSuchFileException: /home/kechidi/M1IWOCS22_23/HuitReine/src/main.java
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.nio.file.Files.newByteChannel(Files.java:371)
+	at java.nio.file.Files.newByteChannel(Files.java:422)
+	at java.nio.file.Files.readAllBytes(Files.java:3206)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$2(InteractiveSemanticdbs.scala:90)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:90)
+	at java.util.HashMap.compute(HashMap.java:1229)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2692)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:89)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:63)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.JavaDocumentHighlightProvider.documentHighlight(JavaDocumentHighlightProvider.scala:19)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1577)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.02.08 09:05:29 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/Main.java
+2023.02.08 09:06:07 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/Main.java
+2023.02.08 09:06:22 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/Main.java
+2023.02.08 09:08:53 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 09:08:59 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 09:09:39 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 09:09:41 WARN  Running javac-semanticdb failed for file:///home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java. Output:
+/home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java:33: error: illegal start of expression
+        public static void hillClimbing() {
+        ^
+/home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java:70: error: invalid method declaration; return type required
+        placerReine(0);
+        ^
+/home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java:70: error: illegal start of type
+        placerReine(0);
+                    ^
+/home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java:71: error: <identifier> expected
+        System.out.println("nombre de solutions : " + nombreSolutions);
+                          ^
+/home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java:71: error: illegal start of type
+        System.out.println("nombre de solutions : " + nombreSolutions);
+                           ^
+/home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java:73: error: class, interface, or enum expected
+}
+^
+6 errors
+2023.02.08 09:10:38 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 09:13:03 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/ain.java
+2023.02.08 09:15:30 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/ain.java
+févr. 08, 2023 9:19:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1137
+2023.02.08 09:19:12 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 09:20:22 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 09:21:06 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/Main.java
+2023.02.08 09:21:13 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/ain.java
+févr. 08, 2023 9:21:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1258
+févr. 08, 2023 9:22:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1335
+2023.02.08 09:22:57 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/Main.java
+2023.02.08 09:23:48 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 09:24:26 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+févr. 08, 2023 9:25:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1618
+2023.02.08 09:26:46 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 09:26:46 INFO  shutting down Metals
+2023.02.08 09:27:19 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/kechidi/M1IWOCS22_23/HuitReine/.metals/lsp.trace.json or /home/kechidi/.cache/metals/lsp.trace.json
+2023.02.08 09:27:22 INFO  logging to file /home/kechidi/M1IWOCS22_23/HuitReine/.metals/metals.log
+2023.02.08 09:27:22 INFO  Started: Metals version 0.11.10 in workspace '/home/kechidi/M1IWOCS22_23/HuitReine' for client Visual Studio Code 1.75.0.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/kechidi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.08 09:27:29 INFO  time: initialize in 7.45s
+2023.02.08 09:27:37 WARN  Build server is not auto-connectable.
+2023.02.08 09:27:37 WARN  no build tool detected in workspace '/home/kechidi/M1IWOCS22_23/HuitReine'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.02.08 09:27:37 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+févr. 08, 2023 9:27:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1
+févr. 08, 2023 9:27:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 2
+févr. 08, 2023 9:27:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 5
+févr. 08, 2023 9:27:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 4
+févr. 08, 2023 9:27:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 8
+févr. 08, 2023 9:27:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 9
+févr. 08, 2023 9:27:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 12
+2023.02.08 09:27:44 INFO  time: code lens generation in 4.56s
+2023.02.08 09:27:44 INFO  time: code lens generation in 4.11s
+2023.02.08 09:27:44 INFO  time: code lens generation in 3.47s
+2023.02.08 09:28:14 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 09:29:14 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/Main.java
+févr. 08, 2023 9:29:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 50
+2023.02.08 09:30:50 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 09:32:04 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 09:33:14 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 09:35:25 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 09:52:58 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 09:53:06 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 09:53:36 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 09:55:59 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+févr. 08, 2023 9:57:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 528
+févr. 08, 2023 9:57:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 534
+2023.02.08 09:57:29 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 10:20:21 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/ain.java
+févr. 08, 2023 10:20:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 584
+2023.02.08 10:20:25 INFO  time: code lens generation in 3.55s
+2023.02.08 10:20:34 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/Main.java
+2023.02.08 10:21:09 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/ain.java
+2023.02.08 10:21:18 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/Main.java
+févr. 08, 2023 10:21:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 610
+2023.02.08 10:24:13 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 10:24:46 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 10:25:37 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 10:26:12 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 10:26:48 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 10:27:47 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 10:30:17 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 10:30:59 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 10:31:11 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 10:31:18 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 10:34:12 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/ain.java
+2023.02.08 10:34:20 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/Main.java
+2023.02.08 10:36:00 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/Main.java
+2023.02.08 10:36:08 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/Main.java
+2023.02.08 10:44:40 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+févr. 08, 2023 10:44:42 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1100
+févr. 08, 2023 10:44:42 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1101
+2023.02.08 10:46:45 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+févr. 08, 2023 10:47:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1360
+2023.02.08 10:48:59 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 10:49:57 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 10:53:21 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 10:53:21 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 10:53:55 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 11:02:59 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 11:04:50 WARN  Cannot tokenize Java file file:///home/kechidi/M1IWOCS22_23/HuitReine/src/echec.javaorg.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1564)
+	at scala.meta.internal.parsing.JavaTokens$.loop$1(JavaTokens.scala:71)
+	at scala.meta.internal.parsing.JavaTokens$.$anonfun$tokenize$1(JavaTokens.scala:75)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.parsing.JavaTokens$.tokenize(JavaTokens.scala:35)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:370)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:226)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:188)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:136)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:1275)
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(null)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+févr. 08, 2023 11:04:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+java.util.concurrent.CompletionException: org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1564)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.next$1(JavaFoldingRangeExtractor.scala:100)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:145)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1809)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2023.02.08 11:04:51 WARN  Cannot tokenize Java file file:///home/kechidi/M1IWOCS22_23/HuitReine/src/echec.javaorg.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1564)
+	at scala.meta.internal.parsing.JavaTokens$.loop$1(JavaTokens.scala:71)
+	at scala.meta.internal.parsing.JavaTokens$.$anonfun$tokenize$1(JavaTokens.scala:75)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.parsing.JavaTokens$.tokenize(JavaTokens.scala:35)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:370)
+	at scala.meta.internal.metals.Buffers.tokenEditDistance(Buffers.scala:30)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.codeLenses(RunTestCodeLens.scala:60)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$3(CodeLensProvider.scala:26)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$2(CodeLensProvider.scala:26)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:24)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1793)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1791)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.02.08 11:04:51 WARN  Cannot tokenize Java file file:///home/kechidi/M1IWOCS22_23/HuitReine/src/echec.javaorg.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1564)
+	at scala.meta.internal.parsing.JavaTokens$.loop$1(JavaTokens.scala:71)
+	at scala.meta.internal.parsing.JavaTokens$.$anonfun$tokenize$1(JavaTokens.scala:75)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.parsing.JavaTokens$.tokenize(JavaTokens.scala:35)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:370)
+	at scala.meta.internal.metals.Buffers.tokenEditDistance(Buffers.scala:30)
+	at scala.meta.internal.metals.codelenses.SuperMethodCodeLens.codeLenses(SuperMethodCodeLens.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$3(CodeLensProvider.scala:26)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$2(CodeLensProvider.scala:26)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:24)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1793)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1791)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.02.08 11:04:56 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 11:05:05 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 11:18:05 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/kechidi/M1IWOCS22_23/HuitReine/.metals/lsp.trace.json or /home/kechidi/.cache/metals/lsp.trace.json
+2023.02.08 11:18:13 INFO  logging to file /home/kechidi/M1IWOCS22_23/HuitReine/.metals/metals.log
+2023.02.08 11:18:13 INFO  Started: Metals version 0.11.10 in workspace '/home/kechidi/M1IWOCS22_23/HuitReine' for client Visual Studio Code 1.75.0.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/kechidi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.08 11:18:31 INFO  time: initialize in 17s
+2023.02.08 11:18:47 WARN  Build server is not auto-connectable.
+2023.02.08 11:18:47 WARN  no build tool detected in workspace '/home/kechidi/M1IWOCS22_23/HuitReine'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.02.08 11:18:48 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+févr. 08, 2023 11:18:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1
+févr. 08, 2023 11:18:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 2
+2023.02.08 11:18:56 INFO  time: code lens generation in 5.48s
+2023.02.08 11:19:35 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 11:20:04 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 11:20:16 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 11:20:34 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 11:20:50 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 11:20:58 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 11:22:37 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 11:29:47 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 11:31:14 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 11:31:17 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 11:31:58 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 11:32:37 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 11:34:45 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+févr. 08, 2023 11:42:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 263
+févr. 08, 2023 11:42:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 262
+févr. 08, 2023 11:42:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 264
+févr. 08, 2023 11:42:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 265
+2023.02.08 11:42:36 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 11:42:52 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 11:43:02 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 11:43:09 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 11:43:25 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 11:45:12 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.02.08 11:52:15 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.03.01 08:08:56 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/kechidi/M1IWOCS22_23/HuitReine/.metals/lsp.trace.json or /home/kechidi/.cache/metals/lsp.trace.json
+2023.03.01 08:09:01 INFO  logging to file /home/kechidi/M1IWOCS22_23/HuitReine/.metals/metals.log
+2023.03.01 08:09:01 INFO  Started: Metals version 0.11.10 in workspace '/home/kechidi/M1IWOCS22_23/HuitReine' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/kechidi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.01 08:09:06 INFO  time: initialize in 6.21s
+2023.03.01 08:09:14 WARN  Build server is not auto-connectable.
+2023.03.01 08:09:14 WARN  no build tool detected in workspace '/home/kechidi/M1IWOCS22_23/HuitReine'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.03.01 08:09:14 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.03.01 08:09:21 INFO  time: code lens generation in 7.4s
+mars 01, 2023 8:12:11 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+2023.03.01 08:17:40 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/Main.java
+2023.03.01 08:17:53 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/tp1AI.java
+mars 01, 2023 8:18:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 31
+mars 01, 2023 8:18:42 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 39
+mars 01, 2023 8:18:42 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 37
+2023.03.01 08:18:46 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/tp1AI.java
+2023.03.01 08:19:27 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/tp1AI.java
+2023.03.01 08:19:29 WARN  Running javac-semanticdb failed for file:///home/kechidi/M1IWOCS22_23/HuitReine/src/tp1AI.java. Output:
+/home/kechidi/M1IWOCS22_23/HuitReine/src/tp1AI.java:19: error: invalid method declaration; return type required
+    public Main(int N) {
+           ^
+1 error
+2023.03.01 08:35:42 INFO  shutting down Metals
+2023.03.01 08:38:33 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/kechidi/M1IWOCS22_23/HuitReine/.metals/lsp.trace.json or /home/kechidi/.cache/metals/lsp.trace.json
+2023.03.01 08:38:39 INFO  logging to file /home/kechidi/M1IWOCS22_23/HuitReine/.metals/metals.log
+2023.03.01 08:38:39 INFO  Started: Metals version 0.11.10 in workspace '/home/kechidi/M1IWOCS22_23/HuitReine' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/kechidi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.01 08:38:58 INFO  time: initialize in 19s
+2023.03.01 08:39:12 WARN  Build server is not auto-connectable.
+2023.03.01 08:39:12 WARN  no build tool detected in workspace '/home/kechidi/M1IWOCS22_23/HuitReine'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.03.01 08:39:12 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/tp1AI.java
+2023.03.01 08:39:12 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+2023.03.01 08:39:31 WARN  Running javac-semanticdb failed for file:///home/kechidi/M1IWOCS22_23/HuitReine/src/tp1AI.java. Output:
+/home/kechidi/M1IWOCS22_23/HuitReine/src/tp1AI.java:19: error: invalid method declaration; return type required
+    public Main(int N) {
+           ^
+1 error
+mars 01, 2023 8:39:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1
+mars 01, 2023 8:39:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 3
+mars 01, 2023 8:39:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 5
+mars 01, 2023 8:39:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 9
+2023.03.01 08:39:51 INFO  time: code lens generation in 10s
+2023.03.01 08:40:32 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/kechidi/M1IWOCS22_23/HuitReine/.metals/lsp.trace.json or /home/kechidi/.cache/metals/lsp.trace.json
+2023.03.01 08:40:37 INFO  logging to file /home/kechidi/M1IWOCS22_23/HuitReine/.metals/metals.log
+2023.03.01 08:40:37 INFO  Started: Metals version 0.11.10 in workspace '/home/kechidi/M1IWOCS22_23/HuitReine' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/kechidi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.01 08:40:46 INFO  time: initialize in 9.17s
+2023.03.01 08:41:05 WARN  Build server is not auto-connectable.
+2023.03.01 08:41:05 WARN  no build tool detected in workspace '/home/kechidi/M1IWOCS22_23/HuitReine'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.03.01 08:41:05 WARN  no build target for: /home/kechidi/M1IWOCS22_23/HuitReine/src/echec.java
+mars 01, 2023 8:41:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 5
+mars 01, 2023 8:41:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 7
+2023.03.01 08:41:25 INFO  time: code lens generation in 19s
+2023.03.01 08:41:31 INFO  time: code lens generation in 12s
+mars 01, 2023 8:47:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 32
+mars 01, 2023 8:48:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 38
